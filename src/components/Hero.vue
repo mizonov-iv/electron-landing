@@ -3,7 +3,7 @@
     <div class="features">
       <ul class="features__list" v-for="(item, index) in features" :key="index">
         <li class="features__item">
-          <img class="features__item--img" :src="item.img_url" alt="">
+          <img class="features__item--img" :src="item.img_url" :alt="item.name">
           <p class="features__item-text">{{item.name}}</p>
         </li>
       </ul>
