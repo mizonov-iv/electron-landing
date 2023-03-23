@@ -1,13 +1,12 @@
 <template>
   <div class="container px-4 py-5">
-    <h2 class="pb-2 border-bottom">Реализация проектов любой сложности под ключ от заявки до конечной сдачи работ</h2>
+    <h2 class="pb-2 border-bottom text-center">Реализация проектов любой сложности под ключ от заявки до конечной сдачи работ</h2>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-      <div class="feature col" v-for="(item, index) in features" :key="index">
+      <div class="feature col d-flex flex-wrap" v-for="(item, index) in features" :key="index">
         <div class="feature-icon">
-          <img :src="item.img_url" :alt="item.title">
+          <img class="figure-img" :src="item.img_url" :alt="item.title">
         </div>
-        <h2>{{ item.title }}</h2>
-
+        <p>{{ item.title }}</p>
       </div>
     </div>
   </div>

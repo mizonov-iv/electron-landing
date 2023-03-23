@@ -1,8 +1,8 @@
 <template>
   <div class="hero">
     <div class="features">
-      <ul class="features__list" v-for="(item, index) in features" :key="index">
-        <li class="features__item">
+      <ul class="d-flex flex-md-row justify-content-md-between flex-column justify-content-center features__list">
+        <li class="d-flex justify-content-center align-items-center p-2 features__item" v-for="(item, index) in features" :key="index">
           <img class="features__item--img" :src="item.img_url" :alt="item.name">
           <p class="features__item-text">{{item.name}}</p>
         </li>
