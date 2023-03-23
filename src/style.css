@@ -88,16 +88,15 @@
     transform: translateX(-50%);
     top: 80%;
     background-color: #363636;
-    width: 90%;
 }
 
 .features__list {
     /*display: flex;*/
     /*flex-direction: row;*/
     /*justify-content: space-between;*/
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
+    /*margin: 0 auto;*/
+    /*padding: 0;*/
+    /*width: 100%;*/
 }
 
 .features__item {
