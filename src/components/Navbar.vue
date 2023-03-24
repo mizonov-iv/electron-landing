@@ -15,17 +15,18 @@
               Услуги
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Услуга № 1</a></li>
-              <li><a class="dropdown-item" href="#">Услуга № 2</a></li>
-              <li><a class="dropdown-item" href="#">Услуга № 3</a></li>
-              <li><a class="dropdown-item" href="#">Услуга № 4</a></li>
+              <li><a class="dropdown-item" href="#">Электромонтажные работы</a></li>
+              <li><a class="dropdown-item" href="#">Слаботочные сети</a></li>
+              <li><a class="dropdown-item" href="#">Система умный дом</a></li>
+              <li><a class="dropdown-item" href="#">Декоративное освещение</a></li>
+              <li><a class="dropdown-item" href="#">Сборка электрощита</a></li>
+              <li><a class="dropdown-item" href="#">Заземление</a></li>
+              <li><a class="dropdown-item" href="#">Молниезащита</a></li>
+              <li><a class="dropdown-item" href="#">Проектирование</a></li>
             </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Наши работы</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Цены</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">О нас</a>

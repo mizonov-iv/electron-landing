@@ -1,12 +1,10 @@
 <template>
-  <div class="hero">
-    <div class="features w-75">
-      <ul class="d-flex flex-md-row justify-content-md-between flex-column justify-content-center w-100 p-0">
-        <li class="d-flex justify-content-center align-items-center p-2 features__item" v-for="(item, index) in features" :key="index">
-          <img class="features__item--img" :src="item.img_url" :alt="item.name">
-          <p class="features__item-text">{{item.name}}</p>
-        </li>
-      </ul>
+  <img class="img-fluid d-block" src="/img/hero-bg.jpg" alt="hero-bg">
+  <div class="d-flex flex-md-row justify-content-md-center align-items-center col-md-10 col-10 flex-column mx-auto" style="background-color: #363636">
+    <div class="p-3 col-md-3 d-flex text-light hero-item-orange"
+        v-for="(item, index) in features" :key="index">
+      <img class="mx-2" :src="item.img_url" alt="">
+      <p class="mx-2">{{item.name}}</p>
     </div>
   </div>
 </template>
