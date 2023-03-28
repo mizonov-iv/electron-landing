@@ -6,15 +6,15 @@
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-      <div class="carousel-inner" style="height: 500px">
-        <div class="carousel-item active">
-          <img src="/img/slider/1.jpeg" class="d-block w-100 object-fit-cover" alt="...">
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="height: 500px;">
+          <img src="/img/slider/1.jpeg" class="slider-img" alt="...">
         </div>
-        <div class="carousel-item">
-          <img src="/img/slider/2.jpeg" class="d-block w-100 object-fit-cover" alt="...">
+        <div class="carousel-item" style="height: 300px">
+          <img src="/img/slider/2.jpeg" class="slider-img" alt="...">
         </div>
-        <div class="carousel-item">
-          <img src="/img/slider/3.jpeg" class="d-block w-100 object-fit-cover" alt="...">
+        <div class="carousel-item" style="height: 300px">
+          <img src="/img/slider/3.jpeg" class="slider-img" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

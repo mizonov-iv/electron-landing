@@ -2,7 +2,7 @@
   <h2 class="m-5 pb-2 border-bottom text-center">Зачем нужен "Умный дом"?</h2>
   <div class="d-flex flex-md-row flex-column justify-content-center col-md-10 mx-auto">
 
-    <div class="col-md-6 order-md-2 mx-5">
+    <div class="col-md-6 order-md-2 mx-1">
       <p class="">
         <b>Имиджевая функция.</b> Система "Умный дом" модернизирует вашу квартиру, коттедж или загородный дом и позволит создать комфорт для каждого жителя и гостя.
         <br>
@@ -16,7 +16,7 @@
       </p>
     </div>
     <div class="col-md-5 order-md-1">
-      <img src="/img/why.jpg" alt="why">
+      <img class="d-block h-75 mx-auto" src="/img/why.jpg" alt="why">
     </div>
   </div>
 
