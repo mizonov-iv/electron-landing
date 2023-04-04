@@ -1,12 +1,12 @@
 <template>
-  <div class="container-fluid">
+  <div class="container mx-auto">
     <Navbar/>
-    <Hero/>
-    <Features/>
-<!--    <ComplexSolutions/>-->
-    <Slider/>
-    <Benefits/>
-    <Why/>
+<!--    <Hero/>-->
+<!--    <Features/>-->
+<!--&lt;!&ndash;    <ComplexSolutions/>&ndash;&gt;-->
+<!--    <Slider/>-->
+<!--    <Benefits/>-->
+<!--    <Why/>-->
   </div>
 
 </template>
