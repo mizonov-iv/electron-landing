@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero': "url('/img/hero-bg.jpg')",
+      },
+      backgroundColor: {
+        'features': '#363636',
+        'features-last': '#f57c00'
+      }
+    },
   },
   plugins: [],
 }
