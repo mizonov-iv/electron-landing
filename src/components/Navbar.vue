@@ -35,18 +35,32 @@
             <a class="nav-link" href="#">Контакты</a>
           </li>
         </ul>
-        <button class="btn btn-danger">Заказать звонок</button>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Modal">
+          Заказать звонок
+        </button>
       </div>
     </div>
   </nav>
+
+  <!-- Modal -->
+  <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Оставьте заявакзаявку, мы свяжемся с вами</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ContactForm/>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
+import ContactForm from "./ContactForm.vue";
 </script>
-
-<style scoped>
-
-</style>
