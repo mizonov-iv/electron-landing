@@ -48,8 +48,8 @@ export default {
   methods: {
     sendMessage() {
 
-      const TOKEN = "5688324213:AAENCPbMFOKejLYK-SN-tITi5io1I6sQJ2I"
-      const CHAT_ID = "-1001506049425"
+      const TOKEN = "6007647990:AAHb4yoQud_IOGMHq4y54qwWKcWfvtsgSWM"
+      const CHAT_ID = "-1001908951551"
       const URI_API = `https://api.telegram.org/bot${ TOKEN }/sendMessage`
 
       let message = `<b>Заявка с сайта</b>\n`

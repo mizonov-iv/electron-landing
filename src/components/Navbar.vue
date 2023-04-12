@@ -36,7 +36,7 @@
           </li>
         </ul>
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Modal">
+        <button type="button" class="btn text-light" style="background: #f57c00" data-bs-toggle="modal" data-bs-target="#Modal">
           Заказать звонок
         </button>
       </div>
@@ -52,6 +52,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
+          <p class="text-center">Введите свое имя и контактный телефон. Наш менеджер свяжется с Вами в кротчайшие сроки.</p>
           <ContactForm/>
         </div>
       </div>

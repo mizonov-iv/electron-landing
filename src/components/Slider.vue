@@ -1,4 +1,5 @@
 <template>
+  <h2 class="m-5 pb-2 border-bottom text-center">Наши работы</h2>
   <div class="container">
     <div id="carouselExampleIndicators" class="carousel slide">
       <div class="carousel-indicators">
@@ -7,14 +8,14 @@
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active" style="height: 500px;">
-          <img src="/img/slider/1.jpeg" class="slider-img" alt="...">
-        </div>
-        <div class="carousel-item" style="height: 300px">
+        <div class="carousel-item active">
           <img src="/img/slider/2.jpeg" class="slider-img" alt="...">
         </div>
-        <div class="carousel-item" style="height: 300px">
-          <img src="/img/slider/3.jpeg" class="slider-img" alt="...">
+        <div class="carousel-item">
+          <img src="/img/slider/2.jpeg" class="slider-img" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/slider/2.jpeg" class="slider-img" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

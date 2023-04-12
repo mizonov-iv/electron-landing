@@ -27,7 +27,7 @@
 <!--          <img class="d-block w-100" src="/img/logo.jpg" alt="">-->
         </div>
         <div class="h6 text-center">
-          <p>© «Авангард» - Сервис онлайн страхования на Урале, 2010-2022.</p>
+          <p>© «Tamers Electron» - "Электромонтажные работы в Екатеринбурге", 2010-2022.</p>
         </div>
       </div>
     </div>
