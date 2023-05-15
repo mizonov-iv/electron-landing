@@ -7,7 +7,7 @@
         <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg rr" :style="{ 'background-image': 'url(' + item.img_url + ')'}">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
             <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-center">{{item.title}}</h2>
-            <p class="text-center fw-bold ">{{item.price}}</p>
+<!--            <p class="text-center fw-bold ">{{item.price}}</p>-->
           </div>
         </div>
       </div>
@@ -28,17 +28,17 @@
 import {ref} from "vue"
 const solutions = ref([
   {
-    title: "В КВАРТИРАХ",
+    title: "КВАРТИРЫ",
     img_url: "/img/complex-solutions/apartments.jpg",
     price: "от 1 200 руб./кв. м"
   },
   {
-    title: "В ДОМАХ",
+    title: "ДОМА",
     img_url: "/img/complex-solutions/home.jpg",
     price: "от 1 450 руб./кв. м"
   },
   {
-    title: "В ОФИСАХ",
+    title: "ОФИСЫ",
     img_url: "/img/complex-solutions/office.jpg",
     price: "от 1 050 руб./кв. м"
   },

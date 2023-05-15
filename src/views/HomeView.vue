@@ -1,7 +1,7 @@
 <template>
   <Hero/>
   <Features/>
-  <!--    <ComplexSolutions/>-->
+      <ComplexSolutions/>
   <Slider/>
   <Benefits/>
   <Why/>

@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <router-link class="navbar-brand" to="/">
-        <img style="display: block; margin: 0 auto; width: 120px; height: 100px;" src="/img/logo.jpeg" alt="logo">
+        <img style="display: block; margin: 0 auto; width: 60px; height: 50px;" src="/img/logo.jpeg" alt="logo">
         <p>Tamers Electron</p>
       </router-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
