@@ -82,6 +82,7 @@ select {
 /*}*/
 
 .hero-item-orange:last-child {
+    cursor: pointer;
     background-color: #f57c00;
 }
 

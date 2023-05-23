@@ -1,7 +1,7 @@
 <template>
   <h2 class="mt-5 pb-2 border-bottom text-center">Преимущества и выгоды умного дома</h2>
   <div class="d-flex flex-md-row flex-column col-12 mx-auto mt-3">
-    <div class="border d-flex align-items-md-center flex-column align-items-center col-md-3 flex-wrap p-2" v-for="(item, index) in features" :key="index">
+    <div class="border d-flex align-items-md-center flex-column align-items-center col-md-3 flex-wrap p-2 m-1" v-for="(item, index) in features" :key="index">
       <img class="w-25" :src="item.img_url" :alt="item.title">
       <p class="mt-3 fw-bold text-center">{{ item.title }}</p>
       <p class="mt-3 text-center">{{ item.text }}</p>

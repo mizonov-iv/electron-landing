@@ -2,7 +2,7 @@
   <h2 class="mt-5 pb-2 border-bottom text-center">Реализация проектов любой сложности под ключ от заявки до конечной сдачи работ</h2>
 
   <div class="d-flex flex-md-row flex-column col-10 mx-auto mt-3">
-    <div class="border d-flex align-items-md-center flex-column align-items-center col-md-2 flex-wrap p-2" v-for="(item, index) in features" :key="index">
+    <div class="border d-flex align-items-md-center flex-column align-items-center col-md-2 flex-wrap p-2 m-1" v-for="(item, index) in features" :key="index">
       <img class="w-25" :src="item.img_url" :alt="item.title">
       <p class="mt-3 text-center">{{ item.title }}</p>
     </div>

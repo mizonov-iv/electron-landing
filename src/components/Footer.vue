@@ -1,12 +1,12 @@
 <template>
   <div class="footer mt-auto py-3 footer-bg">
     <div class="container d-flex flex-column align-items-center">
-      <div class="footer__logo">
-<!--        <img class="d-block w-100" src="/img/logo.jpg" alt="">-->
-      </div>
+<!--      <div class="footer__logo">-->
+<!--&lt;!&ndash;        <img class="d-block w-100" src="/img/logo.jpg" alt="">&ndash;&gt;-->
+<!--      </div>-->
       <div class="h6 text-center mt-2">
         <p class="fw-bold m-0">Телефон</p>
-        <a class="fw-light text-decoration-none" href="tel:+79920125212">+7-992-012-52-12</a>
+        <a class="fw-light text-decoration-none" href="tel:+79126451078">+7-912-645-10-78</a>
       </div>
       <div class="h6 text-center m-0 mt-2">
         <p class="fw-bold m-0">E-mail</p>

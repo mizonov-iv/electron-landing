@@ -1,9 +1,10 @@
 <template>
-  <Slider/>
-
-  <h1 class="m-5 pb-2 text-center">Фотографии монтажа</h1>
-  <SliderMelnica/>
-  <SliderRivera/>
+  <div class="mb-5">
+    <Slider/>
+    <h1 class="m-5 pb-2 text-center">Фотографии монтажа</h1>
+    <SliderMelnica/>
+    <SliderRivera/>
+  </div>
 </template>
 
 <script>
@@ -13,11 +14,5 @@ import SliderRivera from "../components/SliderRivera.vue";
 
 export default {
   components: {SliderRivera, Slider, SliderMelnica}
-
-
 }
 </script>
-
-<style scoped>
-
-</style>

@@ -1,8 +1,13 @@
 <template>
     <img class="img-fluid d-block" src="/img/hero-bg.jpg" alt="hero-bg">
-    <div class="d-flex flex-wrap flex-md-row justify-content-md-center align-items-center col-md-10 col-12 mx-auto" style="background-color: #363636">
+    <div
+        class="d-flex flex-wrap flex-md-row justify-content-md-center align-items-center col-md-10 col-12 mx-auto"
+        style="background-color: #363636"
+    >
       <div class="p-3 col-6 col-md-3 d-flex flex-column flex-md-row text-light hero-item-orange align-items-center"
-           v-for="(item, index) in features" :key="index">
+           v-for="(item, index) in features" :key="index"
+           @click="goToContact(item)"
+      >
         <img class="mx-2 w-auto" :src="item.img_url" alt="">
         <p class="mx-2 text-center">{{item.name}}</p>
       </div>
@@ -11,6 +16,10 @@
 
 <script setup>
 import {ref} from "vue";
+import {useRoute, useRouter} from "vue-router";
+
+const router = useRouter()
+const route = useRoute()
 
 const features = ref([
   {
@@ -30,6 +39,12 @@ const features = ref([
     img_url: "/icons/calculator.svg"
   },
 ])
+
+const goToContact = (item) => {
+  if(item.name === "РАССЧИТАТЬ СТОИМОСТЬ") {
+    router.push('/contacts')
+  }
+}
 
 </script>
 

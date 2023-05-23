@@ -5,7 +5,7 @@
   <Slider/>
   <Benefits/>
   <Why/>
-  <h2 class="m-5 pb-2 border-bottom text-center">Оставьте эксперсс заявку</h2>
+  <h2 class="mt-5 pb-2 border-bottom text-center">Оставьте эксперсс заявку</h2>
   <ContactForm/>
 </template>
 
