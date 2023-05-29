@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-4 mb-4">
+  <div class="w-75 mt-4 mb-4 mx-auto">
     <form class="col-9 col-md-7 mx-auto d-flex flex-column  align-items-center" id="tg">
       <div class="form-floating w-100">
         <input

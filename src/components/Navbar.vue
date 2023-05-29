@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <router-link class="navbar-brand" to="/">
-        <p>Tamers Electron</p>
+        <img style="width: 150px" src="/img/logotype.png" alt="logo">
       </router-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -18,44 +18,28 @@
             </div>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>
-                <button type="button" class="btn dropdown-item" data-bs-toggle="modal" data-bs-target="#modal1">
-                  Электромонтажные работы
-                </button>
+                <a class="btn dropdown-item" data-bs-toggle="modal" href="#modal1" role="button">Электромонтажные работы</a>
               </li>
               <li>
-                <button type="button" class="btn dropdown-item" data-bs-toggle="modal" data-bs-target="#modal2">
-                  Слаботочные сети
-                </button>
+                <a class="btn dropdown-item" data-bs-toggle="modal" href="#modal2" role="button">Слаботочные сети</a>
               </li>
               <li>
-                <button type="button" class="btn dropdown-item" data-bs-toggle="modal" data-bs-target="#modal3">
-                  Система умный дом
-                </button>
+                <a class="btn dropdown-item" data-bs-toggle="modal" href="#modal3" role="button">Система умный дом</a>
               </li>
               <li>
-                <button type="button" class="btn dropdown-item" data-bs-toggle="modal" data-bs-target="#modal4">
-                  Декоративное освещение
-                </button>
+                <a class="btn dropdown-item" data-bs-toggle="modal" href="#modal4" role="button">Декоративное освещение</a>
               </li>
               <li>
-                <button type="button" class="btn dropdown-item" data-bs-toggle="modal" data-bs-target="#modal5">
-                  Сборка электрощита
-                </button>
+                <a class="btn dropdown-item" data-bs-toggle="modal" href="#modal5" role="button">Сборка электрощита</a>
               </li>
               <li>
-                <button type="button" class="btn dropdown-item" data-bs-toggle="modal" data-bs-target="#modal6">
-                  Заземление
-                </button>
+                <a class="btn dropdown-item" data-bs-toggle="modal" href="#modal6" role="button">Заземление</a>
               </li>
               <li>
-                <button type="button" class="btn dropdown-item" data-bs-toggle="modal" data-bs-target="#modal7">
-                  Молниезащита
-                </button>
+                <a class="btn dropdown-item" data-bs-toggle="modal" href="#modal7" role="button">Молниезащита</a>
               </li>
               <li>
-                <button type="button" class="btn dropdown-item" data-bs-toggle="modal" data-bs-target="#modal8">
-                  Проектирование
-                </button>
+                <a class="btn dropdown-item" data-bs-toggle="modal" href="#modal8" role="button">Проектирование</a>
               </li>
             </ul>
           </li>
@@ -69,17 +53,13 @@
             <router-link class="nav-link" to="/contacts">Контакты</router-link>
           </li>
         </ul>
-        <!-- Button trigger modal -->
-        <button type="button" class="btn text-light" style="background: #f57c00" data-bs-toggle="modal" data-bs-target="#Modal">
-          Заказать звонок
-        </button>
+        <button class="btn text-light" style="background: #f57c00" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Заказать звонок</button>
       </div>
     </div>
   </nav>
-
   <!-- CONTACT MODAL -->
-  <div class="modal fade" id="Modal" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog">
+  <div class="modal fade" id="exampleModalToggle2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">Оставьте заявакзаявку, мы свяжемся с вами</h5>
@@ -125,7 +105,7 @@
           </ul>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" style="background: #f57c00" data-bs-dismiss="modal">Закрыть</button>
+          <button class="btn text-light" style="background: #f57c00" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Рассчитать стоимость</button>
         </div>
       </div>
     </div>
@@ -155,7 +135,7 @@
           </p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" style="background: #f57c00" data-bs-dismiss="modal">Закрыть</button>
+          <button class="btn text-light" style="background: #f57c00" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Рассчитать стоимость</button>
         </div>
       </div>
     </div>
@@ -205,7 +185,7 @@
           </p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" style="background: #f57c00" data-bs-dismiss="modal">Закрыть</button>
+          <button class="btn text-light" style="background: #f57c00" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Рассчитать стоимость</button>
         </div>
       </div>
     </div>
@@ -248,7 +228,7 @@
           <p><em>Функциoнaльнoe и дeкopaтивнoe ocвeщeниe зeлёныx нacaждeний, элeмeнтoв мaлoй apxитeктуpы и блaгoуcтpoйcтвa, а также зeмeльныx учacткoв. Лaндшaфтнoe ocвeщeниe включaeт в ceбя диaпaзoн paбoт пo ocвeщeнию пapкoв, плoщaдeй, пpилeгaющиx тeppитopий, caдoв и т.д.</em></p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" style="background: #f57c00" data-bs-dismiss="modal">Закрыть</button>
+          <button class="btn text-light" style="background: #f57c00" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Рассчитать стоимость</button>
         </div>
       </div>
     </div>
@@ -276,7 +256,7 @@
           <p>Хотите правильно и качественно спроектировать и собрать электрощит? Мы с радостью вам в этом поможем!</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" style="background: #f57c00" data-bs-dismiss="modal">Закрыть</button>
+          <button class="btn text-light" style="background: #f57c00" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Рассчитать стоимость</button>
         </div>
       </div>
     </div>
@@ -308,7 +288,7 @@
           <br>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" style="background: #f57c00" data-bs-dismiss="modal">Закрыть</button>
+          <button class="btn text-light" style="background: #f57c00" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Рассчитать стоимость</button>
         </div>
       </div>
     </div>
@@ -355,7 +335,7 @@
           <p>Специалисты Tamers Electron готовы реализовать монтаж молниезащиты на вашем объекте с нуля и «под ключ».</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" style="background: #f57c00" data-bs-dismiss="modal">Закрыть</button>
+          <button class="btn text-light" style="background: #f57c00" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Рассчитать стоимость</button>
         </div>
       </div>
     </div>
@@ -386,12 +366,11 @@
           </p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" style="background: #f57c00" data-bs-dismiss="modal">Закрыть</button>
+          <button class="btn text-light" style="background: #f57c00" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Рассчитать стоимость</button>
         </div>
       </div>
     </div>
   </div>
-
 </template>
 
 <script setup>
