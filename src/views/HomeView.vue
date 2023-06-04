@@ -11,6 +11,6 @@
 import Hero from "../components/Hero.vue";
 import Features from "../components/Features.vue";
 import ComplexSolutions from "../components/ComplexSolutions.vue";
-import Slider from "../components/Slider.vue";
+import Slider from "../components/sliders/Slider.vue";
 import ContactForm from "../components/ContactForm.vue";
 </script>
