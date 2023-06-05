@@ -23,7 +23,7 @@ const route = useRoute()
 
 const features = ref([
   {
-    name: "16 лет на рэнке электроснабжения",
+    name: "7 лет на рынке электроснабжения",
     img_url: "/icons/worker.svg"
   },
   {
