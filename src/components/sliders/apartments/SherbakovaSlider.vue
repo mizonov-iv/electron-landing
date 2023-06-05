@@ -1,17 +1,7 @@
 <template>
   <h3 class="m-3 border-bottom text-center mb-3">Квартира на ул. Щербакова</h3>
   <div class="container ">
-    <div id="sherbakova" class="carousel slide" data-bs-ride="carousel">
-<!--      <div class="carousel-indicators">-->
-<!--        <button type="button" data-bs-target="#sherbakova" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>-->
-<!--        <button type="button" data-bs-target="#sherbakova" data-bs-slide-to="1" aria-label="Slide 2"></button>-->
-<!--        <button type="button" data-bs-target="#sherbakova" data-bs-slide-to="2" aria-label="Slide 3"></button>-->
-<!--        <button type="button" data-bs-target="#sherbakova" data-bs-slide-to="3" aria-label="Slide 3"></button>-->
-<!--        <button type="button" data-bs-target="#sherbakova" data-bs-slide-to="4" aria-label="Slide 3"></button>-->
-<!--        <button type="button" data-bs-target="#sherbakova" data-bs-slide-to="5" aria-label="Slide 3"></button>-->
-<!--        <button type="button" data-bs-target="#sherbakova" data-bs-slide-to="6" aria-label="Slide 3"></button>-->
-<!--        <button type="button" data-bs-target="#sherbakova" data-bs-slide-to="7" aria-label="Slide 3"></button>-->
-<!--      </div>-->
+    <div id="sherbakova" class="carousel slide relative" data-bs-ride="carousel">
       <div class="carousel-inner ">
         <div class="carousel-item active " data-bs-interval="2000">
           <img src="/img/slider/apartments/sherbakova/1.jpg" class="umasheva-slider-img" alt="slide">
@@ -95,11 +85,11 @@
           <img src="/img/slider/apartments/sherbakova/27.jpg" class="umasheva-slider-img" alt="slide">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#sherbakova" data-bs-slide="prev">
+      <button class="carousel-control-prev prev" type="button" data-bs-target="#sherbakova" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#sherbakova" data-bs-slide="next">
+      <button class="carousel-control-next next" type="button" data-bs-target="#sherbakova" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
